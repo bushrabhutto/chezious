@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 import { blogPosts } from "@/dataBlog/blogPosts"
 import { notFound } from "next/navigation"
 
@@ -42,7 +42,13 @@ export default function BlogPost({ params }) {
     <div className="max-w-4xl mx-auto py-12 px-4">
       <h1 className="text-4xl font-bold mb-6">{post.title}</h1>
       <div className="relative w-full h-[400px] mb-8">
-  
+        <Image
+          src={post.image || "/placeholder.svg"}
+          alt={post.title}
+          fill
+          className="object-cover rounded-lg"
+          priority
+        />
       </div>
       <div className="prose max-w-none">{formatContent(post.content)}</div>
     </div>

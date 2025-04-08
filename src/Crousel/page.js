@@ -16,6 +16,9 @@ import card1 from "@/assets/card1.png"
 import card2 from "@/assets/card2.png"
 import card3 from "@/assets/card3.png"
 import app from "@/assets/app.png"
+import fastfood1 from "@/assets/fastfood1.jpeg"
+import fastfood2 from "@/assets/fastfood2.avif"
+import fastfood3 from "@/assets/fastfood3.avif"
 
 
 
@@ -130,18 +133,18 @@ const Carousel = () => {
         <BlogCard
           onClick={() => router.push("/Blog/awami-brand")}
           title="The Awami Brand That's All About Local Love"
-          img={cro1}
+          img={fastfood1}
        
         />
         <BlogCard
           onClick={() => router.push("/Blog/perfect-movie")}
           title="The Perfect Movie Night Pairings"
-      img={cro2}
+      img={fastfood2}
         />
         <BlogCard
           onClick={() => router.push("/Blog/pizza-party")}
           title="How to Host the Ultimate Pizza Party with Cheezious"
-       img={cro3}
+       img={fastfood3}
         />
       </div>
     </div>
