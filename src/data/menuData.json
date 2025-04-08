@@ -1,0 +1,133 @@
+{
+    "categories": [
+      {
+        "id": "pizza",
+        "title": "Pizza",
+        "image": "/images/categories/pizza.png"
+      },
+      {
+        "id": "burger",
+        "title": "Burger",
+        "image": "/images/categories/burger.png"
+      },
+      {
+        "id": "salan",
+        "title": "Salan",
+        "image": "/images/categories/salan.png"
+      },
+      {
+        "id": "addons",
+        "title": "Addons",
+        "image": "/images/categories/addons.png"
+      },
+      {
+        "id": "sandwiches-platters",
+        "title": "Sandwiches & Platters",
+        "image": "/images/categories/sandwiches-platters.png"
+      },
+      {
+        "id": "side-orders",
+        "title": "Side Orders",
+        "image": "/images/categories/side-orders.png"
+      }
+    ],
+    "products": {
+      "pizza": [
+        {
+          "id": "chicken-tikka",
+          "name": "Chicken Tikka Pizza",
+          "description": "Chunks of grilled chicken, onion & cheese.",
+          "price": 690,
+          "image": "/images/products/pizza/chicken-tikka.png"
+        },
+        {
+          "id": "fajita",
+          "name": "Fajita Pizza",
+          "description": "Fajita chicken with bell peppers and cheese.",
+          "price": 690,
+          "image": "/images/products/pizza/fajita.png"
+        }
+      ],
+      "burger": [
+        {
+          "id": "zinger-burger",
+          "name": "Zinger Burger",
+          "description": "Crispy chicken fillet, lettuce, mayo in a soft bun.",
+          "price": 450,
+          "image": "/images/products/burger/zinger.png"
+        },
+        {
+          "id": "cheese-burger",
+          "name": "Cheese Burger",
+          "description": "Juicy beef patty with cheese slice and ketchup.",
+          "price": 480,
+          "image": "/images/products/burger/cheese.png"
+        }
+      ],
+      "salan": [
+        {
+          "id": "chicken-karahi",
+          "name": "Chicken Karahi",
+          "description": "Traditional spicy chicken cooked in tomato masala.",
+          "price": 850,
+          "image": "/images/products/salan/karahi.png"
+        },
+        {
+          "id": "chicken-qorma",
+          "name": "Chicken Qorma",
+          "description": "Chicken cooked in rich qorma gravy.",
+          "price": 800,
+          "image": "/images/products/salan/qorma.png"
+        }
+      ],
+      "addons": [
+        {
+          "id": "extra-cheese",
+          "name": "Extra Cheese",
+          "description": "Melted cheese topping for your meal.",
+          "price": 100,
+          "image": "/images/products/addons/cheese.png"
+        },
+        {
+          "id": "extra-sauce",
+          "name": "Extra Sauce",
+          "description": "Delicious sauce dip add-on.",
+          "price": 50,
+          "image": "/images/products/addons/sauce.png"
+        }
+      ],
+      "sandwiches-platters": [
+        {
+          "id": "grilled-chicken-sandwich",
+          "name": "Grilled Chicken Sandwich",
+          "description": "Grilled chicken sandwich with fries.",
+          "price": 520,
+          "image": "/images/products/sandwiches/grilled-chicken.png"
+        },
+        {
+          "id": "club-sandwich",
+          "name": "Club Sandwich",
+          "description": "Three-layer sandwich with chicken, egg, veggies.",
+          "price": 550,
+          "image": "/images/products/sandwiches/club.png"
+        }
+      ],
+      "side-orders": [
+        {
+          "id": "fries",
+          "name": "Fries",
+          "description": "Crispy golden french fries.",
+          "price": 250,
+          "image": "/images/products/sides/fries.png"
+        },
+        {
+          "id": "nuggets",
+          "name": "Chicken Nuggets",
+          "description": "Tender chicken nuggets served with dip.",
+          "price": 300,
+          "image": "/images/products/sides/nuggets.png"
+        }
+      ]
+    }
+  }
+  

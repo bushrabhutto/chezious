@@ -1,0 +1,48 @@
+
+{
+    "categories": [
+      {
+        "name": "BHOOK KA THE END!",
+        "items": [
+          { "id": 1, "name": "Bazooka", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6t4fYc2pWdN0EPjop_eucLIMx3lLAlKJksw&s","description":"Tender, spicy chicken strips paired with mayo, pickles, jalapeños, and signature..." ,"price": 350 },
+          { "id": 2, "name": "Loaded Fries", "image": "/images/loaded-fries.jpg", "price": 250 }
+        ]
+      },
+      {
+        "name": "STARTERS",
+        "items": [
+          { "id": 3, "name": "Garlic Bread", "image": "@/assets/stater1.png", "price": 200 },
+          { "id": 4, "name": "Cheese Sticks", "image": "/images/cheese-sticks.jpg", "price": 300 }
+        ]
+      },
+      {
+        "name": "SOMEWHAT LOCAL",
+        "items": [
+          { "id": 5, "name": "Chicken Tikka Pizza", "image": "/images/tikka-pizza.jpg", "price": 600 },
+          { "id": 6, "name": "Malai Boti Pizza", "image": "/images/malai-pizza.jpg", "price": 650 }
+        ]
+      },
+      {
+        "name": "SOMEWHAT SOOPER",
+        "items": [
+          { "id": 7, "name": "Pepperoni Pizza", "image": "/images/pepperoni-pizza.jpg", "price": 700 },
+          { "id": 8, "name": "Four Cheese Pizza", "image": "/images/four-cheese.jpg", "price": 750 }
+        ]
+      },
+      {
+        "name": "DESSERTS",
+        "items": [
+          { "id": 9, "name": "Chocolate Lava Cake", "image": "/images/lava-cake.jpg", "price": 400 },
+          { "id": 10, "name": "Brownie with Ice Cream", "image": "/images/brownie-icecream.jpg", "price": 450 }
+        ]
+      },
+      {
+        "name": "BEVERAGES",
+        "items": [
+          { "id": 11, "name": "Lemonade", "image": "/images/lemonade.jpg", "price": 150 },
+          { "id": 12, "name": "Cold Coffee", "image": "/images/cold-coffee.jpg", "price": 250 }
+        ]
+      }
+    ]
+  }
+  
