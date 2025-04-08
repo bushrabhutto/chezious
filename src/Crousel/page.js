@@ -16,9 +16,6 @@ import card1 from "@/assets/card1.png"
 import card2 from "@/assets/card2.png"
 import card3 from "@/assets/card3.png"
 import app from "@/assets/app.png"
-import fastfood1 from "@/assets/fastfood1.jpeg"
-import fastfood2 from "@/assets/fastfood2.avif"
-import fastfood3 from "@/assets/fastfood3.avif"
 
 
 
