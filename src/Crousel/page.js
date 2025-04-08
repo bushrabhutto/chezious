@@ -12,12 +12,11 @@ import cro4 from "@/assets/cro4.png"
 import cro5 from "@/assets/cro5.webp"
 import cro6 from "@/assets/cro6.webp"
 
-
+import card1 from "@/assets/card1.png"
+import card2 from "@/assets/card2.png"
+import card3 from "@/assets/card3.png"
 import app from "@/assets/app.png"
 
-import Cardblog1 from "@/assets/Cardblog1.png"
-import Cardblog2 from "@/assets/Cardblog2.png"
-import Cardblog3 from "@/assets/Cardblog3.png"
 
 
 
@@ -116,6 +115,13 @@ const Carousel = () => {
       <FoodMenuCarousel />
 
     
+      <div className="flex gap-4 justify-center items-center my-6 flex-wrap">
+        <Cards txt="Delivering cheezy khushiyan" img={card1} />
+        <Cards txt="Fastest Growing Brand of the Year" img={card2} />
+        <Cards txt="Made with fresh, local ingredients and love" img={card3} />
+      </div>
+
+    
       <div className="flex justify-center items-center my-6">
         <Image src={app || "/placeholder.svg"} alt="app" />
       </div>
@@ -124,17 +130,17 @@ const Carousel = () => {
         <BlogCard
           onClick={() => router.push("/Blog/awami-brand")}
           title="The Awami Brand That's All About Local Love"
-          img={Cardblog1}
+       
         />
         <BlogCard
           onClick={() => router.push("/Blog/perfect-movie")}
           title="The Perfect Movie Night Pairings"
-          img={Cardblog2}
+      
         />
         <BlogCard
           onClick={() => router.push("/Blog/pizza-party")}
           title="How to Host the Ultimate Pizza Party with Cheezious"
-          img={Cardblog3}
+       
         />
       </div>
     </div>
