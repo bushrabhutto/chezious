@@ -2,7 +2,7 @@ import Cardblog1 from "@/assets/Cardblog1.png"
 import Cardblog2 from "@/assets/Cardblog2.png"
 import Cardblog3 from "@/assets/Cardblog3.png"
 
-// Export the blog posts with your specific images and detailed content
+
 export const blogPosts = {
   "awami-brand": {
     title: "The Awami Brand That's All About Local Love",
