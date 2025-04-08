@@ -134,7 +134,7 @@ Call 111 44 66 99 or order through the Cheezious app to get everything delivered
 Hosting a pizza party with Cheezious is more than about enjoying great food; it's about creating joyful memories with your friends and loved ones. So, dial up the desi, bring out the pizzas, and let the good times roll! Coz abhi tou party shuru hui hai!
 
 `,
-    image: Cardblog3,
+
   },
   "another-blog": {
     title: "Another Blog Post",
