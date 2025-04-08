@@ -4,7 +4,7 @@
 export const blogPosts = {
   "awami-brand": {
     title: "The Awami Brand That's All About Local Love",
-    image: "@/assets/blogs/fastfood1.jpeg",
+    image: "src/assets/fastfood1.jpeg",
     content: `
 
 At Cheezious, we do more than serve food; we craft a community experience, with a pinch of desi tadka and a whole lot of Pakistani pride. We believe in food as something that binds us to our heritage, celebrates our roots and showcases what makes Pakistan truly special. So, let's dive into how Cheezious is not just a food chain but a flag bearer of all-things local and especially a 'Proud Pakistani Brand'!
@@ -60,7 +60,7 @@ Explore more and join us on this flavorful journey at Cheezious.com. Let’s mak
   },
   "perfect-movie": {
     title: "Cheezious and Chill: The Perfect Movie Night Pairings",
-    image: "@/assets/blogs/fastfood2.avif",
+    image: "src/assets/fastfood2.avif",
     content: `Film dekhnay ka mood hai? Let's make it a Cheezious night! Whether you're in for a night of thrills, laughs, or in a deewana mood, we've got the perfect Cheezious combo to pair with your movie marathon. So grab your remote, cozy up on the sofa, and let us take you through a delicious tour of the best Cheezious pairings for any film genre.
 
     Action-Packed Adventures
@@ -90,7 +90,7 @@ Explore more and join us on this flavorful journey at Cheezious.com. Let’s mak
   },
   "pizza-party": {
     title: "How to Host the Ultimate Pizza Party with Cheezious",
-    image: "@/assets/blogs/fastfood3.avif",
+    image: "src/assets/fastfood3.avif",
     content:`How to Host the Ultimate Pizza Party with Cheezious
 
 
