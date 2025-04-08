@@ -1,6 +1,4 @@
-import Cardblog1 from "@/assets/Cardblog1.png"
-import Cardblog2 from "@/assets/Cardblog2.png"
-import Cardblog3 from "@/assets/Cardblog3.png"
+
 
 
 export const blogPosts = {
@@ -57,7 +55,7 @@ So next time you bite into your favorite Cheezious food, remember, you’re biti
 
 
 Explore more and join us on this flavorful journey at Cheezious.com. Let’s make every meal a celebration of our local heritage!`,
-    image: Cardblog1,
+   
   },
   "perfect-movie": {
     title: "Cheezious and Chill: The Perfect Movie Night Pairings",
@@ -86,7 +84,7 @@ Explore more and join us on this flavorful journey at Cheezious.com. Let’s mak
     To order these mind-blowing flavors, just dial 111 44 66 99 or hit up the Cheezious app. And don't forget, when it comes to movie nights, a party-size pizza is always a blockbuster idea!
     
     So what are you waiting for? Pick your movie, order your favorite Cheezious delights, and make your movie night legendary. After all, every film is better with a slice (or two) of the perfect pizza. Cheezious ke saath, har movie night bani superhit!`,
-    image: Cardblog2,
+ 
   },
   "pizza-party": {
     title: "How to Host the Ultimate Pizza Party with Cheezious",
@@ -141,21 +139,21 @@ Hosting a pizza party with Cheezious is more than about enjoying great food; it'
   "another-blog": {
     title: "Another Blog Post",
     content: "Some more content for another blog post.",
-    image: Cardblog1,
+  
   },
   "yet-another": {
     title: "Yet Another Blog",
     content: "Even more content for yet another blog post.",
-    image: Cardblog2,
+ 
   },
   "last-one": {
     title: "The Last Blog Post",
     content: "The very last blog post content.",
-    image: Cardblog3,
+ 
   },
 }
 
-// Export individual blog posts for direct import
+
 export const AwamiBrand = blogPosts["awami-brand"]
 export const PerfectMovie = blogPosts["perfect-movie"]
 export const PizzaParty = blogPosts["pizza-party"]
