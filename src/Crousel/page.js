@@ -133,18 +133,17 @@ const Carousel = () => {
         <BlogCard
           onClick={() => router.push("/Blog/awami-brand")}
           title="The Awami Brand That's All About Local Love"
-          img={fastfood1}
-       
+          img={Cardblog1}
         />
         <BlogCard
           onClick={() => router.push("/Blog/perfect-movie")}
           title="The Perfect Movie Night Pairings"
-      img={fastfood2}
+          img={Cardblog2}
         />
         <BlogCard
           onClick={() => router.push("/Blog/pizza-party")}
           title="How to Host the Ultimate Pizza Party with Cheezious"
-       img={fastfood3}
+          img={Cardblog3}
         />
       </div>
     </div>

@@ -1,10 +1,11 @@
-
+import Cardblog1 from "@/assets/fastfood1.jpeg"
+import Cardblog2 from "@/assets/fastfood2.avif"
+import Cardblog3 from "@/assets/fastfood3.avif"
 
 
 export const blogPosts = {
   "awami-brand": {
     title: "The Awami Brand That's All About Local Love",
-    image: "src/assets/fastfood1.jpeg",
     content: `
 
 At Cheezious, we do more than serve food; we craft a community experience, with a pinch of desi tadka and a whole lot of Pakistani pride. We believe in food as something that binds us to our heritage, celebrates our roots and showcases what makes Pakistan truly special. So, let's dive into how Cheezious is not just a food chain but a flag bearer of all-things local and especially a 'Proud Pakistani Brand'!
@@ -56,11 +57,10 @@ So next time you bite into your favorite Cheezious food, remember, you’re biti
 
 
 Explore more and join us on this flavorful journey at Cheezious.com. Let’s make every meal a celebration of our local heritage!`,
-   
+    image: Cardblog1,
   },
   "perfect-movie": {
     title: "Cheezious and Chill: The Perfect Movie Night Pairings",
-    image: "src/assets/fastfood2.avif",
     content: `Film dekhnay ka mood hai? Let's make it a Cheezious night! Whether you're in for a night of thrills, laughs, or in a deewana mood, we've got the perfect Cheezious combo to pair with your movie marathon. So grab your remote, cozy up on the sofa, and let us take you through a delicious tour of the best Cheezious pairings for any film genre.
 
     Action-Packed Adventures
@@ -86,11 +86,10 @@ Explore more and join us on this flavorful journey at Cheezious.com. Let’s mak
     To order these mind-blowing flavors, just dial 111 44 66 99 or hit up the Cheezious app. And don't forget, when it comes to movie nights, a party-size pizza is always a blockbuster idea!
     
     So what are you waiting for? Pick your movie, order your favorite Cheezious delights, and make your movie night legendary. After all, every film is better with a slice (or two) of the perfect pizza. Cheezious ke saath, har movie night bani superhit!`,
- 
+    image: Cardblog2,
   },
   "pizza-party": {
     title: "How to Host the Ultimate Pizza Party with Cheezious",
-    image: "src/assets/fastfood3.avif",
     content:`How to Host the Ultimate Pizza Party with Cheezious
 
 
@@ -137,26 +136,26 @@ Call 111 44 66 99 or order through the Cheezious app to get everything delivered
 Hosting a pizza party with Cheezious is more than about enjoying great food; it's about creating joyful memories with your friends and loved ones. So, dial up the desi, bring out the pizzas, and let the good times roll! Coz abhi tou party shuru hui hai!
 
 `,
-
+    image: Cardblog3,
   },
   "another-blog": {
     title: "Another Blog Post",
     content: "Some more content for another blog post.",
-  
+    image: Cardblog1,
   },
   "yet-another": {
     title: "Yet Another Blog",
     content: "Even more content for yet another blog post.",
- 
+    image: Cardblog2,
   },
   "last-one": {
     title: "The Last Blog Post",
     content: "The very last blog post content.",
- 
+    image: Cardblog3,
   },
 }
 
-
+// Export individual blog posts for direct import
 export const AwamiBrand = blogPosts["awami-brand"]
 export const PerfectMovie = blogPosts["perfect-movie"]
 export const PizzaParty = blogPosts["pizza-party"]
