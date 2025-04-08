@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
-
+import Images from "next/image"
 
 import cro1 from "@/assets/cro1.png"
 import cro2 from "@/assets/cro2.png"
@@ -130,17 +130,18 @@ const Carousel = () => {
         <BlogCard
           onClick={() => router.push("/Blog/awami-brand")}
           title="The Awami Brand That's All About Local Love"
+          img={cro1}
        
         />
         <BlogCard
           onClick={() => router.push("/Blog/perfect-movie")}
           title="The Perfect Movie Night Pairings"
-      
+      img={cro2}
         />
         <BlogCard
           onClick={() => router.push("/Blog/pizza-party")}
           title="How to Host the Ultimate Pizza Party with Cheezious"
-       
+       img={cro3}
         />
       </div>
     </div>
