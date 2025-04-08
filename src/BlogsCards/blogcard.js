@@ -9,7 +9,7 @@ export default function BlogCard({ title, img, onClick }) {
       onClick={onClick}
     >
       <div className="relative h-48 w-full">
-        <Image src={img || "/placeholder.svg"} alt={title} fill className="object-cover" />
+        <Image src={img } alt={title} fill className="object-cover" />
       </div>
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>
