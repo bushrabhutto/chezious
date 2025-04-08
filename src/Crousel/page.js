@@ -118,7 +118,11 @@ const Carousel = () => {
       <FoodMenuCarousel />
 
     
-    
+      <div className="flex gap-4 justify-center items-center my-6 flex-wrap">
+        <Cards txt="Delivering cheezy khushiyan" img={card1} />
+        <Cards txt="Fastest Growing Brand of the Year" img={card2} />
+        <Cards txt="Made with fresh, local ingredients and love" img={card3} />
+      </div>
 
     
       <div className="flex justify-center items-center my-6">
