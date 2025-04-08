@@ -12,9 +12,7 @@ import cro4 from "@/assets/cro4.png"
 import cro5 from "@/assets/cro5.webp"
 import cro6 from "@/assets/cro6.webp"
 
-import card1 from "@/assets/card1.png"
-import card2 from "@/assets/card2.png"
-import card3 from "@/assets/card3.png"
+
 import app from "@/assets/app.png"
 
 import Cardblog1 from "@/assets/Cardblog1.png"
@@ -116,13 +114,6 @@ const Carousel = () => {
 
    
       <FoodMenuCarousel />
-
-    
-      <div className="flex gap-4 justify-center items-center my-6 flex-wrap">
-        <Cards txt="Delivering cheezy khushiyan" img={card1} />
-        <Cards txt="Fastest Growing Brand of the Year" img={card2} />
-        <Cards txt="Made with fresh, local ingredients and love" img={card3} />
-      </div>
 
     
       <div className="flex justify-center items-center my-6">
